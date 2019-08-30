@@ -10,6 +10,9 @@ const IndexPage = () => (
       Em breve muito conteúdo sobre uso de animações em inerfaces de usuário e
       como elas podem melhorar a experiência dos usuários com produtos digitais.
     </p>
+    <p>
+      Fiquem ligados!
+    </p>
   </Layout>
 )
 
