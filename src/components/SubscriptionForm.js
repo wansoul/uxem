@@ -3,7 +3,7 @@ import React, {useState} from "react"
 import "./SubscriptionForm.css"
 
 const SubscriptionForm = () => {
-    const [email, setEmail] = useState(email);
+    const [email, setEmail] = useState();
     return (
         <div>
             <div id="mc_embed_signup">
