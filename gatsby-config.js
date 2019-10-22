@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `UX em Movimento`,
     description: `Animações melhorando a experiência de usuário`,
-    author: `@gatsbyjs`,
+    author: `@wansouza`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -31,22 +31,9 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: "UA-145264326-1",
-        // Puts tracking script in the head instead of the body
-        head: true,
-        // Setting this parameter is optional
-        // anonymize: true,
-        // Setting this parameter is also optional
-        // respectDNT: true,
-        // Avoids sending pageview hits from custom paths
-        // exclude: ["/preview/**", "/do-not-track/me/too/"],
-        // Enables Google Optimize using your container Id
-        optimizeId: "GTM-533B2PQ",
-        // Any additional create only fields (optional)
-        sampleRate: 5,
-        siteSpeedSampleRate: 10,
-        cookieDomain: "uxemmovimento.com",
       },
     },
+
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
